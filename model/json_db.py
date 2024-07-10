@@ -15,7 +15,7 @@ class JsonDB(BaseModel):
         data=self.read()
         data['clientes'].append(cliente.dict())
         f = open(self.path, 'w')
-        f.write(json.dumps(data))
+        f.write(json.dumps(data , indent=2, separators= (',', ': ')))
         f.close()
         return data
     

@@ -1,1 +1,22 @@
-{"clientes": [{"nome": "Oswaldo", "celular": "86 9999999", "email": "oswaldo@gmail", "nascimento": "17/03/84", "endereco": "rua 5", "genero": "Masculino", "porfissao": "DEV"}]}
+{
+  "clientes": [
+    {
+      "nome": "Oswaldo",
+      "celular": "86 9999999",
+      "email": "oswaldo@gmail",
+      "nascimento": "17/03/84",
+      "endereco": "rua 5",
+      "genero": "Masculino",
+      "porfissao": "DEV"
+    },
+    {
+      "nome": "Jalls",
+      "celular": "86 98876778",
+      "email": "jalls@gmail",
+      "nascimento": "17031976",
+      "endereco": "rua 7",
+      "genero": "Masculino",
+      "porfissao": "Gamer"
+    }
+  ]
+}
